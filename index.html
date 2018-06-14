@@ -7,45 +7,122 @@
     <title>Web130-Final Project</title>
     <script type="text/javascript" src="js/build/app.js"></script>
     <link rel="stylesheet" href="css/main.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica|IM+Fell+DW+Pica+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica|IM+Fell+DW+Pica+SC|Merriweather" rel="stylesheet">
 </head>
 <body>
+    <img class="logo" src="img/50th-LOGO-blue.png" alt="SCC" />
     <div class="wrapper">
         <header>
-            <h1>Seattle Central Times</h1>
-            <img class="desktop" src="img/partlycloudy.gif" alt="Partly Cloudy" />
+            <div id="newspaper">
+                Seattle Central Times
+            </div>
+            <div id="subheader">
+                <i>"Connecting students with community"</i>
+            </div>
+            <div id="weather">
+                Thursday, June 7th, 2018
+            <img class="weather" src="img/partlycloudy.gif" alt="Partly Cloudy" />
+                59&#8457;</img>
+            </div>
+            
             <nav class="topnav" id="myTopnav">
             <a href="#">Home</a>
             <a href="#">Campus</a>
             <a href="#">Community</a> 
             <a href="#">Opinion</a>    
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-            </nav>    
+            </nav> 
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="article_detail.html#cjiaztj1720w40100oohqpmhd">Latest News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="article%20_form.html">Submit an Article</a>
+                </li>
+            </ul>
         </header>
     </div>
     <section>
-        <form>
-            <h1>Editor Login</h1>
-            <div class="form-group">
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+        <main class="container">
+        <section class="row">
+            <article class="col-md-4">
+                <h1 class="headline-1">Track Team Headed To State</h1>
+                <div id="article-1">
+                    <h2 class="recent"></h2>
+                    <div>
+                        <p>
+                            The Seattle Central Track Team is headed to State for the first time. Maecenas ut orci eu lacus porta aliquet non vel ligula. Praesent ullamcorper pellentesque quam id pharetra. Nunc laoreet mattis ornare. Maecenas ut orci eu lacus porta aliquet non vel ligula. Praesent ullamcorper pellentesque quam id pharetra. Nunc laoreet mattis ornare.<br> Maecenas ut orci eu lacus porta aliquet non vel ligula. Praesent ullamcorper pellentesque quam id pharetra. Nunc laoreet mattis ornare. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id turpis nunc. Integer est enim, mattis nec massa eget, volutpat euismod sapien. <br> Sed sollicitudin enim molestie nibh porta dictum. Suspendisse ac odio ac sem tempor accumsan at ut mi. Mauris ac sapien urna. Nulla quis semper sapien. Etiam sed convallis tortor. Praesent congue elit urna, et congue sapien commodo a.
+                        </p>
+                    </div>
+                    <img class="track" src="img/track.jpg" alt="scc track" />
+                </div>
+            </article>
+            <article class="col-md-8">
+                <h1 class="headline-2">Mayor Proposes Free College</h1>
+                <div id="article-2">
+                    <h2 class="content"></h2>
+                    <div>
+                        <p>
+                            This week the Mayor laid out her plans for free college in Seattle. Maecenas ut orci eu lacus porta aliquet non vel ligula. Praesent ullamcorper pellentesque quam id pharetra. Nunc laoreet mattis ornare. Maecenas ut orci eu lacus porta aliquet non vel ligula. Praesent ullamcorper pellentesque quam id pharetra. Nunc laoreet mattis ornare. Maecenas ut orci eu lacus porta aliquet non vel ligula. Praesent ullamcorper pellentesque quam id pharetra. Nunc laoreet mattis ornare. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id turpis nunc. Integer est enim, mattis nec massa eget, volutpat euismod sapien. Sed sollicitudin enim molestie nibh porta dictum.<br> Suspendisse ac odio ac sem tempor accumsan at ut mi. Mauris ac sapien urna. Nulla quis semper sapien. Etiam sed convallis tortor. Praesent congue elit urna, et congue sapien commodo a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id turpis nunc. Integer est enim, mattis nec massa eget, volutpat euismod sapien. Sed sollicitudin enim molestie nibh porta dictum. Suspendisse ac odio ac sem tempor accumsan at ut mi. Mauris ac sapien urna. Nulla quis semper sapien. Etiam sed convallis tortor. Praesent congue elit urna, et congue sapien commodo a.</div>
+                        </p>
+                    </div>
+                    <img class="campus" src="img/campus.png" alt="scc campus" />
+                        <figcaption>
+                            <i>Will tuition be a thing of the past?</i>
+                        </figcaption>
+                </div>    
+            </article>
+        </section>
+
+        <section class="row">
+            <article class="col-md-4">
+                <h1 class="headline-3">Food Drive Starts This Week</h1>
+                <div id="article-3">
+                    <h2 class="content"></h2>
+                    <div>
+                        <p>
+                            The annual food drive starts this week. Find out what you can do to help your fellow students. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id turpis nunc. Integer est enim, mattis nec massa eget, volutpat euismod sapien. Sed sollicitudin enim molestie nibh porta dictum. Suspendisse ac odio ac sem tempor accumsan at ut mi. Mauris ac sapien urna. Nulla quis semper sapien. Etiam sed convallis tortor. Praesent congue elit urna, et congue sapien commodo a.</article>
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <article class="col-md-8">
+                <h3 class="headline-4">Students Rally To Fight Climate Change</h3>
+                <img class="protest" src="img/meep-meep.jpg" alt="march for science" />
+                <div id="article-4">
+                    <h2 class="content"></h2>
+                    <div>
+                        <p>
+                            On Friday, students held a rally to raise Climate Change awareness. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id turpis nunc. Integer est enim, mattis nec massa eget, volutpat euismod sapien. Sed sollicitudin enim molestie nibh porta dictum. Suspendisse ac odio ac sem tempor accumsan at ut mi. <br>Mauris ac sapien urna. Nulla quis semper sapien. Etiam sed convallis tortor. Praesent congue elit urna, et congue sapien commodo a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id turpis nunc. Integer est enim, mattis nec massa eget, volutpat euismod sapien. Sed sollicitudin enim molestie nibh porta dictum. Suspendisse ac odio ac sem tempor accumsan at ut mi. Mauris ac sapien urna. Nulla quis semper sapien. Etiam sed convallis tortor. Praesent congue elit urna, et congue sapien commodo a.</div>
+                        </p>
+                    </div>
+                </div>    
+            </article>
+        </section>
+    </main>
+    
+    <main class="container">
+        <div class="row">
+            <div class="col-sm-12" id='main-content'>
+                <h1></h1>
             </div>
-            <div class="form-group">
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-            </div>
-                <button type="login" class="btn btn-primary">Login</button>
-        </form>
-    </section>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        </div>
+    </main>
+    
     <script>
-            function myFunction() 
-                var x = document.getElementById("myTopnav")
-                if (x.className === "topnav") 
-                    x.className += " responsive"
-            else 
-                x.className = "topnav"
+        function myFunction() {
+            var x = document.getElementById('myTopnav');
+            if (x.className === 'topnav'){
+                x.className += ' responsive';
+            } else {
+                x.className = 'topnav';
+            }
+        }
+        
+        var JS_PAGE = 'list_view';
     </script>
-    
-    
-    
 </body>
 </html>    

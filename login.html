@@ -4,22 +4,66 @@
     <meta name="viewport" content="width=device-width" />
     <meta name="robots" content="noindex,nofollow" />
     <meta charset="utf-8">
-    <title>Web130-Final Project</title>
-    <script type="text/javascript" src="js/build/app.js"></script>
+    <title>Newspaper Login</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/main.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica|IM+Fell+DW+Pica+SC" rel="stylesheet">
 </head>
 <body>
+    <img class="logo" src="img/50th-LOGO-blue.png" alt="SCC" />
+    <div class="wrapper">
+        <header>
+            <div id="newspaper">
+                Seattle Central Times
+            </div>
+            <div id="subheader">
+                <i>"Connecting students with community"</i>
+            </div>
+            <div id="weather">
+                Thursday, June 7th, 2018
+            <img class="weather" src="img/partlycloudy.gif" alt="Partly Cloudy" />
+                59&#8457;</img>
+            </div>
+            
+            <nav class="topnav" id="myTopnav">
+            <a href="index.html?_c9_id=livepreview21&_c9_host=https://ide.c9.io">Home</a>
+            <a href="#">Campus</a>
+            <a href="#">Community</a> 
+            <a href="#">Opinion</a>    
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </nav> 
     <form>
         <h1>Editor Login</h1>
-        <div class="form-group">
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+        <main class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-8">
+                <form>
+                    <div class="form-group row">
+                        <label for="username" class="col-sm-2 col-form-label">Username</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="username" name="username" placeholder="Username">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="password" class="col-sm-2 col-form-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="password" name="password" placeholder="********">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                            <a href="article%20_form.html" class="button--style-red">Sign In</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="form-group">
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-        </div>
-            <button type="submit" class="btn btn-primary">Login</button>
-    </form>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </main>
+    
+    <script type="text/javascript">
+        var JS_PAGE = 'login_view';
+    </script>
+    <script type="text/javascript" src="js/build/app.js"></script>
+    
 </body>
 </html> 
